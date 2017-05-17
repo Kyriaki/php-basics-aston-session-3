@@ -1,0 +1,9 @@
+*** TP Sport Chrono Box ***
+
+Créer une application permettant d'afficher sur un site de sport, une zone "Chrono" affichant des liens vers des articles
+
+Backend (Apache/PHP/MySql) : enregistrement des articles et des catégories
+
+Frontend : affichage des articles (JS: pur, jquery ou angular)
+Une pagination permettra de naviguer entre les pages de résultats
+La première page sera chargée dès le départ, les autres seront chargées "à la demande" via des requêtes ajax

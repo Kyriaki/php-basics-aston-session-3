@@ -1,0 +1,147 @@
+body, ul {
+  border: 0 none;
+  font-family: Arial,Helvetica,sans-serif;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul.chrono {
+    position: relative;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#scrollerChrono {
+  border: 1px solid #D3D9E5;;
+  height: 300px!important;
+  overflow: hidden!important;
+  position: relative;
+}
+
+ul.chrono li {
+  border-bottom: 1px solid #D3D9E5;
+  height: 29px;
+  overflow: hidden!important;
+  width: 300px;
+}
+
+ul.chrono li a {
+  font-size: 11px;
+  display: block;
+  width: 260px;
+  height: 26px;
+  padding-top: 1px;
+  float: left;
+  line-height: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+
+ul.chrono li span.date {
+  line-height: 31px;
+  padding-left: 6px;
+  font-size: 11px!important;
+  font-weight: 700;
+  overflow: hidden;
+  width: 32px!important;
+  display: block!important;
+  float: left!important;
+  padding-top: 0px!important;
+  margin: 0!important;
+  height: 24px!important;
+  background: none!important;
+}
+
+#chrono {
+  width: 300px;
+}
+
+#chrono .header {
+  background: #84ad09;
+  height: 40px;
+  overflow: hidden;
+}
+
+#chrono h2 {
+  color: #fff;
+  font-family: 'museo_sans900';
+  font-size: 21px;
+  float: left;
+  margin-left: 15px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#chrono .footer {
+  position: relative;
+  height: 38px;
+  background: #E9EEF5;
+  border: 1px solid #D3D9E5;
+  border-top: none;
+}
+
+#chrono .footer .prev.disabled {
+  background-position: -35px -589px;
+  cursor: default;
+}
+
+#chrono .footer .prev {
+  position: absolute;
+  top: 9px;
+  background: #d60000;
+  width: 15px;
+  height: 21px;
+  background: url(../img/sprite.png);
+  cursor: pointer;
+  left: 10px;
+  background-position: 0 -589px;
+}
+
+#chrono .footer .next {
+  position: absolute;
+  top: 9px;
+  background: #d60000;
+  width: 15px;
+  height: 21px;
+  background: url(../img/sprite.png);
+  cursor: pointer;
+  left: 80px;
+  background-position: -18px -589px;
+}
+
+#chrono .footer .pager {
+  color: #7c8699;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 40px;
+  top: 13px;
+}
+
+.disabled {
+    cursor: default!important;
+}
+
+#chrono .footer .next:hover {
+  background-position: -88px -589px;
+}
+
+#chrono .footer .prev:hover {
+  background-position: -70px -589px;
+}
+
+div#article{
+  width: 600px;
+  height: 500px;
+  border: 1px #ddd solid;
+}

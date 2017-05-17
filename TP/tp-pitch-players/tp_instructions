@@ -1,0 +1,15 @@
+*** TP Pitch Players ***
+
+Créer une application permettant d'enregistrer des match de foot
+
+En plus de permettre l'enregisrement du lieu et de la date de la rencontre,
+l'interface d'enregistrement affichera la liste des joueurs disponibles.
+Chaque joueur pourra être glissé-déposé sur l'image du terrain de foot.
+un minimum de 9 joueurs devra être présent sur la carte
+
+La position des joueurs sur la carte sera également enregistrée en base de données.
+
+L'application permettra également d'afficher la liste des matchs enregistrés.
+L'affichage d'un match montrera les informations de ce match
+  date et lieu
+  carte et joueurs positionnées dessus
